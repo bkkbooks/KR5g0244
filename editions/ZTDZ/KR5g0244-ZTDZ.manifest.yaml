@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0244/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0244/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 續道藏經目錄
+  date: '2015-08-29 03:00:46.548645'
+  source:
+    repository: kanripo
+    path: KR5g0244
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0244_000-ZTDZ.yaml, hash: 'sha256:a159d210758c90687eb603faad8e081b0b62c56322fde0dd289ba41602f732e9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0244_000-ZTDZ.markers.yaml, hash: 'sha256:2a4629bd5798a634209adf22ef7f3175026591003755ca55c7b4878962a4a297'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0244_SJB_000-340556a
+    span:
+    - body
+    - 0
+    - 814
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:e1e85249a14df4e9ede0409ae2f9c6425cfc466d6561701cace1a424285598d7

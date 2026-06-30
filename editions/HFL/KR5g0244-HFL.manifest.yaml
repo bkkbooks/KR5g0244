@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0244/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5g0244/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 續道藏經目錄
+  date: '2015-08-29 03:00:46.548645'
+  source:
+    repository: kanripo
+    path: KR5g0244
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0244_000-HFL.yaml, hash: 'sha256:8a0bfc8edbb1b1b1dd2ddb69ecc6c331d684079fa3aaeb3d8b6823b861acce26'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0244_000-HFL.markers.yaml, hash: 'sha256:2830d707974ca5e6315f8f5e8dbeecc5df83b1787e92b39ab88f76fbba1b1d37'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0244_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 814
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:21cb7561b587d090f78c49cb5f6ac9e387f2849e28d9f8c3d2ff9b4bf9502092
